@@ -1,6 +1,8 @@
 # jean_bartik_LSTM_TCN
 Google Colaboratory-runnable notebooks for time series forecasting on the PAMAP dataset
 
+![](screenshot.png)
+
 Notebooks designed to run on Google Colaboratory from the Jean Bartik Computing Symposium 2019 in West Point Miitary Academy.
 
 Dataset is Subject 102: Download from the .zip file (`.dat`) file here: https://archive.ics.uci.edu/ml/machine-learning-databases/00231/
@@ -16,7 +18,11 @@ With that fundamental understanding of basic RNN code, we will embark on buildin
 
 You need to first begin by opening the (see: tutorial_rnn_lstm.ipynb) file. We will then open the rnn_numpy.ipynb file.
 
+![](walking_signal.png)
+
 <b>Introduction to 1D Convolutional Nets Using WaveNet</b>
 
 Recent research suggests that using convolutional neural networks (CNNs) are just as effective at sequence prediction tasks and have advantages in that they take less time to train and are more interpretable. For a “bake off” we will use the same PAMAP2 sensor data set but apply it on a one-dimensional (non-spatial) CNN using the basic version of a popular temporal convolutional network called “Wavenet” developed by Google as the primary machine language translation algorithm. Wavenet in its basic form can be implemented in Keras which is what we will do today (see: tutorial_wavnet.ipynb). Let’s take a look at how Wavenet using a temporarl CNN works in comparison to the LSTM. We will also introduce new ways to process the sensor data to prepare it for the CNN. 
+
+![](stairs_wavenet.png)
 
